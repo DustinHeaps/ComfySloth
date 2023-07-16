@@ -42,6 +42,6 @@ export const services = [
     },
 ]
 
-export const products_url = process.env.REACT_APP_API
+export const products_url = `${process.env.REACT_APP_API}`
 
-export const single_product_url = process.env.REACT_APP_SINGLE_API
+export const single_product_url = `${process.env.REACT_APP_SINGLE_API}`
